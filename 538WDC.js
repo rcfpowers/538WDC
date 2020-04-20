@@ -348,6 +348,9 @@
       id: "stage",
       dataType: tableau.dataTypeEnum.string
     }, {
+      id: "race_id",
+      dataType: tableau.dataTypeEnum.int
+    },{
       id: "answer",
       dataType: tableau.dataTypeEnum.string
     }, {
@@ -676,10 +679,10 @@
       dataType: tableau.dataTypeEnum.string
     }, {
       id: "yes",
-      dataType: tableau.dataTypeEnum.int
+      dataType: tableau.dataTypeEnum.float
     }, {
       id: "no",
-      dataType: tableau.dataTypeEnum.int
+      dataType: tableau.dataTypeEnum.float
     }];
 
     var approvalPresTableSchema = {
