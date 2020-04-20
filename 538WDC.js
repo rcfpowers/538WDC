@@ -359,7 +359,7 @@
     }, {
       id: "pct",
       alias: "percentage_answer_for",
-      dataType: tableau.dataTypeEnum.float
+      dataType: tableau.dataTypeEnum.string
     }];
 
     var governorTableSchema = {
@@ -425,9 +425,6 @@
       dataType: tableau.dataTypeEnum.date
     }, {
       id: "end_date",
-      dataType: tableau.dataTypeEnum.date
-    }, {
-      id: "election_date",
       dataType: tableau.dataTypeEnum.date
     }, {
       id: "sponser_candidate",
@@ -658,9 +655,6 @@
       dataType: tableau.dataTypeEnum.date
     }, {
       id: "end_date",
-      dataType: tableau.dataTypeEnum.date
-    }, {
-      id: "election_date",
       dataType: tableau.dataTypeEnum.date
     }, {
       id: "sponser_candidate",
